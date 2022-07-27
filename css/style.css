@@ -1,0 +1,80 @@
+.wraper {
+	width:  500px;
+	height: 500px;
+	background: yellow;
+	position: relative;
+}
+.box1 {
+	width: 150px;
+	height: 150px;
+	background: red;
+	position: absolute;
+	top: 50px;
+	left: 30px;
+	z-index: 2;
+}
+.hello-text {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.box2 {
+	width: 100px;
+	height: 100px;
+	background: blue;
+	position: absolute;
+	top: 150px;
+	left:  80px;
+	z-index: 3;
+}
+
+/*image example*/
+.text-image {
+	position: absolute;
+	top: 100px;
+	right: 50px;
+	color: red;
+	font-size: 35px;
+}
+.image-wraper {
+	position: relative;
+	width: 771px;
+	/*display: inline-block;*/
+}
+.title {
+	text-align: center;
+}
+
+/*chat image*/
+.chat-image {
+	height: 100px;
+}
+.chat-icon {
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+}
+
+/*header- fixed example*/
+.nav-item {
+	display: inline-block;
+}
+.navigation{
+	display: inline-block;
+	margin-left: 50px;
+}
+.header-wraper {
+	background: lightblue;
+	padding: 30px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 50;
+}
+body {
+	/*padding-top: 76px;*/
+}
+.section-after-header{
+	margin-top: 76px;
+}
